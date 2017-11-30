@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/pozadina"
+    android:orientation="vertical"
+    tools:context="com.example.daniel.gameofthones.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gameLogo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:paddingTop="40dp"
+            android:text="# \n Quiz"
+
+            android:textColor="#9dd9e4"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/play_game"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="playGameClick"
+            android:text="@string/play_game"
+            android:textColor="@color/textColor"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/exit_game"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/exit_game"
+        android:textColor="@color/textColor"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:clickable="true"
+        android:paddingBottom="160dp"
+        android:onClick="exitGame"
+        />
+
+</LinearLayout>

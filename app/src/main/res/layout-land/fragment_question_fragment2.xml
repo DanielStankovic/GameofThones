@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment2"
+    android:orientation="horizontal"
+    tools:context="com.example.daniel.gameofthones.QuestionFragment1">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:text="@string/second_question"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/textColor"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="25dp">
+
+        <RadioGroup
+            android:id="@+id/answerRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="King 's  Landing"
+                android:textColor="@color/textColor"
+                android:textColorLink="@color/textColor"
+                android:textSize="@dimen/answerTextSize" />
+
+            <RadioButton
+                android:id="@+id/a2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Braavos"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/answerTextSize" />
+
+            <RadioButton
+                android:id="@+id/a3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Castely  Rock"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/answerTextSize" />
+        </RadioGroup>
+        <TextView
+            android:id="@+id/next_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+            android:paddingBottom="8dp"
+            android:paddingRight="30dp"
+            android:text="Next"
+            android:textColor="@color/textColor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Game of Thrones Quiz</string>
+    <string name="play_game">PLAY GAME</string>
+    <string name="exit_game">EXIT GAME</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="first_question">John\u0020\u0020Snow\'\u0020s \n direwolf\u0020\u0020 is\u0020\u0020 named:</string>
+    <string name="second_question"> The \u0020Queen\'s \u0020\u0020bithplace \u0020\u0020is \u0020\u0020in:</string>
+    <string name="third_question">The \u0020\u0020names\u0020\u0020 of \u0020\u0020the \u0020\u0020dragons\u0020\u0020 are:</string>
+    <string name="fourth_question">Who \u0020\u0020fought\u0020\u0020 for\u0020\u0020 Tyrion\u0020\u0020 in\u0020\u0020 the\u0020\u0020 Trial \u0020\u0020by\u0020\u0020 Combat:  </string>
+    <string name="fifth_question">The\u0020\u0020 name\u0020\u0020 of\u0020\u0020 Arya\' \u0020s\u0020\u0020 sword \u0020\u0020is:</string>
+
+
+</resources>

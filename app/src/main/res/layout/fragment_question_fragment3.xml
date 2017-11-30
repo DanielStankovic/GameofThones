@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment3"
+    android:orientation="vertical"
+    tools:context="com.example.daniel.gameofthones.QuestionFragment1">
+
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/third_question"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/textColor"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:paddingLeft="25dp">
+
+        <RadioGroup
+            android:id="@+id/answerRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/a1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Viserion, Tyrion, Drogon"
+                android:textColor="@color/textColor"
+                android:textColorLink="@color/textColor"
+                android:textSize="@dimen/answerTextSize" />
+
+            <RadioButton
+                android:id="@+id/a2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Rhaegal, Varys, Daenerys"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/answerTextSize" />
+
+            <RadioButton
+                android:id="@+id/a3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Drogon, Viserion, Rhaegal"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/answerTextSize" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/next_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="20sp"
+        android:textColor="@color/textColor"
+        android:layout_gravity="right"
+        android:paddingRight="30dp"
+        android:paddingBottom="8dp"
+        />
+
+</LinearLayout>
